@@ -1,0 +1,19 @@
+{
+  "name": "suidouble8192",
+  "version": "0.0.6",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "tap -j=1 ./test/*.test.js",
+    "coverage": "tap -j=1 ./test/*.test.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "suidouble": "^0.0.23",
+    "tap": "^16.3.6"
+  }
+}
