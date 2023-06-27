@@ -21,7 +21,7 @@ npm install
 
 #### AI / Manual
 
-AI is not too smart, don't expect it to get you close to the #1 place in the leaderboard, but may get into top100 with some luck, feel free to fork and adjust GameBoardPredicter class (ping me if you have ideas about AI features to use or brave enough to add tensorflow or something over there).
+AI is not too smart, don't expect it to get you close to the #1 place in the leaderboard, but may get into top100 with some luck(Note to Ethos team: rep was private till the very deadline and I am not going to go through kyc myself), feel free to fork and adjust GameBoardPredicter class (ping me if you have ideas about AI features to use or brave enough to add tensorflow or something over there).
 
 Adjust `waitKey` setting in `config.json` to play manually or in AI-mode. (waitKey - ms to wait for you to press the arrow key before bot plays itself). Set it to `60000` and it waits for 1 minute for you to press the key, set it to `1` - and the AI will play not waiting for you.
 
@@ -48,7 +48,7 @@ Bot stops playing if:
     - game is over
 
     - there're > 10 recuring transaction errors
-    
+
     - on exit
 
 To continue the game, set its id as `continueGameId` in config.json. You can restart the bot anytime if continueGameId is set. Or just stop the bot anytime and continue playing in SUI8192 web version.
