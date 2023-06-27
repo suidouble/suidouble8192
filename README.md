@@ -44,8 +44,11 @@ node play_on_chain.js
 to create the game on blockchain and start playing it. Don't forget that it takes 0.2 SUI to create a gameboard (as per smart contract) and some gas (~ 0.00085 SUI) for every transaction. So be sure you have some SUI on your wallet (if on testnet, bot tries to get some SUI from faucet though it's not always available).
 
 Bot stops playing if:
+
     - game is over
+
     - there're > 10 recuring transaction errors
+    
     - on exit
 
 To continue the game, set its id as `continueGameId` in config.json. You can restart the bot anytime if continueGameId is set. Or just stop the bot anytime and continue playing in SUI8192 web version.
