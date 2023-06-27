@@ -3,6 +3,7 @@
 CLI app and bot to play [SUI8192 game](https://sui8192.ethoswallet.xyz/). 
 
 On-chain (mainnet, testnet, or localnet testing) / In-memory practice
+
 AI-mode / Manual (press arrows to play) 
 
 <img src="https://suidouble.github.io/sui_videos/8192.gif" height="200">
