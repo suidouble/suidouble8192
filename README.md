@@ -10,6 +10,8 @@ AI-mode / Manual (press arrows to play)
 
 Built with [suidouble](https://github.com/suidouble/suidouble) library for interacting with SUI blockchain Move smart contracts. No other dependencies.
 
+Don't forget to check your address with [sui bot score analizer](https://github.com/suidouble/suidouble-bot-score) to determine if you may be suspected as a bot.
+
 #### installation
 
 ```bash
